@@ -1,8 +1,8 @@
 FROM eclipse-temurin:21-jdk
 
-WORKDIR/app
+WORKDIR /app
 
-COPY./app
+COPY . .
 
 RUN java Sample
 
